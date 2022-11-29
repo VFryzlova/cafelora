@@ -1,6 +1,7 @@
 export const Menu = () => {
     const menu = document.createElement('section')
     menu.classList.add('menu')
+    menu.setAttribute('id', 'menu')
     menu.innerHTML = `
         <div class="container">
             <h2>Naše nabídka</h2>

@@ -1,6 +1,7 @@
 export const Banner = () => {
     const banner = document.createElement('section')
     banner.classList.add('banner')
+    banner.setAttribute('id', 'banner')
     banner.innerHTML = `
         <div class="container">
             <div class="banner__content">

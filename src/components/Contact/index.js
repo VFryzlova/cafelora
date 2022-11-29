@@ -1,5 +1,6 @@
 export const Contact = () => {
     const contact = document.createElement('section')
+    contact.setAttribute('id', 'contact')
     contact.innerHTML = `
         <div class="container">
             <h2>Kde nás najdete</h2>

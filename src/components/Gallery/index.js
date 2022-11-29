@@ -1,6 +1,7 @@
 export const Gallery = () => {
     const gallery = document.createElement('section')
     gallery.classList.add('gallery')
+    gallery.setAttribute('id', 'gallery')
     gallery.innerHTML = `
         <div class="container">
             <div class="gallery__content">
